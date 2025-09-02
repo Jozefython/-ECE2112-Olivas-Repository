@@ -1,40 +1,49 @@
-# **ALPHABET SOUP PROBLEM**
+KAROL JOZEF S. OLIVAS
 
-• Create a function that takes a string and returns a string with its letters in alphabetical order.
+2ECE-C
 
-• Its purpose is to take in a string value and alphabetically arrange it from A -> Z.
+ECE2112 - Programming Assignment # 1
 
-Example:
 
+
+# 🅰️ALPHABET SOUP PROBLEM
+
+• Create a function that takes a string and returns a string with its letters in alphabetical order. It takes in a string value and alphabetically arrange it from A -> Z.
+
+• The code contains a user-defined function that turns the given string to an ```array``` of characters, ```sorts``` them, and ```prints``` them one by one using a ```while``` function.
+
+**Example:**
+
+```python 
 alphabet_soup("karol")
-#
 
-#output: aklor
+# Output: aklor
+```
 
 
-# **EMOTICON PROBLEM**
+# 😍EMOTICON PROBLEM
 
-• Create a function that changes specific words into emoticons. 
+• Create a function that changes specific words into emoticons. It takes in a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon.
 
-• Its purpose is to take in a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon.
+• The code contains a user-defined function that contains ```if``` functions that checks whether the given string contains the following words, and once it does, it ```replaces``` them with the corresponding emoticons.
 
-Example:
+**Example:**
 
+```python 
 emotify("I am mad but I have a smile. You have a grin but you are sad.")
 
-#
-#Output: I am >:( but I have a :). You have a :D but you are :((.
+# Output: I am >:( but I have a :). You have a :D but you are :((.
+```
 
+# 📦UNPACKING LIST PROBLEM
 
-# **UNPACKING LIST PROBLEM**
+• Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then it prints all three variables.
 
-• Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. 
+• The code contains an array of numbers, then two variables that take the minimum and maximum values of the array. After that, the array was modified so that the first and last values of the array will be removed. It then prints the first (minimum) value, middle values (array), and the last (maximum) value
 
-• Its purpose is to print all three variables.
+**Example:**
 
-Example:
-
-
+```python 
 writeyourcodehere = [1,2,3,4,5,6] 
 
 f = min(writeyourcodehere) 
@@ -45,7 +54,7 @@ writeyourcodehere.remove(f)
 
 writeyourcodehere.remove(l) 
 
-#
+
 
 print("First:")
 
@@ -63,9 +72,9 @@ print("Last:")
 
 print(l)
 
-#
 
-#Output:
+
+# Output:
 
 First:
 1
@@ -75,3 +84,4 @@ Middle:
  
 Last:
 6
+```
